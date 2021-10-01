@@ -9,7 +9,7 @@ let stocks = {
  };
 
 
- let is_shop_open=true;
+ let is_shop_open=false;
 
  let order=(time,work)=>{
      return new Promise((resolve,reject)=>{
@@ -67,5 +67,10 @@ let stocks = {
 
     })
 })
+.catch(()=>{
+    console.log("Customer left");
+})
 
-
+.finally(()=>{
+    console.log("day ended shop is closed")
+})
