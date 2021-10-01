@@ -9,7 +9,7 @@ let stocks = {
  };
 
 
- let is_shop_open=false;
+ let is_shop_open=true;
 
  let order=(time,work)=>{
      return new Promise((resolve,reject)=>{
