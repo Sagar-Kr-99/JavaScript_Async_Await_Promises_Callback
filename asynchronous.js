@@ -3,6 +3,7 @@
 console.log("I")
 
 //setTimeout function is inbuilt function in js
+//setTimeout is asynchronous function
 //Arrow function
 //Time in ms
 setTimeout(() => {
