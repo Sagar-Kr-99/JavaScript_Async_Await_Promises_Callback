@@ -1,3 +1,4 @@
+
 //Regular function
 
 function abc(){
@@ -7,5 +8,6 @@ function abc(){
 let abcd=()=>{
     console.log("Arrow function")
 }
+
 abc()
 abcd()
