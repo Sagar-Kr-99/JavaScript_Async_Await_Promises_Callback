@@ -14,7 +14,10 @@ let stocks = {
 let toppings_choice=()=>{
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
-            console.log("Which topping would you love? ")
+            resolve(
+                console.log("Which topping would you love? ")
+            )
+            
         },3000)
 
     })
